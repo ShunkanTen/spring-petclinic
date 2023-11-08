@@ -26,7 +26,7 @@ services:
         condition: service_healthy
     container_name: petclinic
     ports:
-      - "433:433"
+      - "443:443"
     networks:
       - net
     environment:
