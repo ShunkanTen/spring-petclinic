@@ -26,7 +26,7 @@ services:
         condition: service_healthy
     container_name: petclinic
     ports:
-      - "80:80"
+      - "8080:8080"
     networks:
       - net
     environment:
